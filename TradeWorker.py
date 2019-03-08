@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import os
-import sys
-import re
-import csvmodule as cs
-import mlab as mlab
+
+from TMScrape_helpers import *
 
 
 tm_fields = [
@@ -131,36 +128,6 @@ def cleanup(anystr):
     return newstr
 
 
-def print_progress(process_name, iteration, total):
-    """
-    Call in a loop to create terminal progress bar
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        bar_length  - Optional  : character length of bar (Int)
-    """
-    prefix = 'Progress'
-    suffix = 'Complete'
-
-    decimals = 1
-    bar_length = 100
-    iteration = iteration + 1
-
-    str_format = "{0:." + str(decimals) + "f}"
-    percents = str_format.format(100 * (iteration / float(total)))
-    filled_length = int(round(bar_length * iteration / float(total)))
-    bar = '█' * filled_length + '-' * (bar_length - filled_length)
-
-    sys.stdout.write('\r%s |%s| %s%s %s' % (process_name, bar, percents, '%', suffix)),
-
-    if iteration == total:
-        sys.stdout.write('\n')
-    sys.stdout.flush()
-
-
 def interpet_codes(tm_data):
     # INTERPRET TM STATUS CODES
 
@@ -230,11 +197,9 @@ def parse_field(start, end, anystring):
         return 'N/A'
 
 
-def parse_html(html_str, record_num):
+def parse_html(html_str):
 
     tm_data = {}
-
-    tm_data['SCRAPE RECORD NUMBER'] = record_num
 
     html_str = html_str.upper()
 
@@ -265,46 +230,69 @@ def repackHTML(html_filename, html_str):
     html = html.replace(')</i></font></b>\n<br>', '')
     html = html.replace('\n\n\n', '')
 
-    os.remove('all_tm_records/' + html_filename)
+    os.remove('tm_record_temp/' + html_filename)
 
     return html
 
 
-
-def process(path): # path where TM HTML files are stored
+def main():
 
     destination = mlab.get_collection('app_data','trademarks',True)
 
-    existing_record_nums = destination.distinct('SCRAPE RECORD NUMBER')
-    existing_record_nums = {x:1 for x in existing_record_nums}
+    existing_ids = destination.distinct('_id')
+    existing_ids = {x:1 for x in existing_ids}
+
+    path = 'tm_record_temp/'
 
     tm_files = os.listdir(path)
 
     joblen = len(tm_files)
 
-    print joblen
+    already_in_db = 0
 
     for count,tm_page in enumerate(tm_files):
 
         print_progress('TRADEMARKS',count,joblen)
 
-        record_num = tm_page.strip('.html').replace('_','')
+        _id = tm_page.strip('.html')
+
+        record_date = tm_page.split('_')[0]
+
+        full_path = path + tm_page
 
         try:
-            check = existing_record_nums[ record_num ]
+            check = existing_ids[ _id ]
+            # If check passes, record is already in db and can be removed
+            os.remove( full_path )
         except:
-            html_file = open( path + tm_page )
+            html_file = open( full_path )
             html = html_file.read()
 
-            trademark_data = parse_html( html, record_num )
+            trademark_data = parse_html( html )
 
             if trademark_data:
 
-                trademark_data['_id'] = trademark_data['SCRAPE RECORD NUMBER']
+                trademark_data['RECORD DATE'] = tm_page.split('_')[0]
+
+                trademark_data['RECORD NUMBER'] = tm_page.split('_')[-1].strip('.html')
+
+                trademark_data['_id'] = _id
 
                 trademark_data['RAW HTML'] = repackHTML(tm_page,html)
 
                 destination.insert( trademark_data )
 
+            else:
+                # TM is a design mark and can be removed
+                os.remove( full_path )
 
-process('all_tm_records/')
+
+
+
+while True:
+    try:
+        main()
+    except:
+        print traceback.format_exc()
+
+    time.sleep(30)

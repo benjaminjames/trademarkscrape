@@ -614,3 +614,305 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 2019-03-05 15:04:09.399 firefox-bin[35036:6481469] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
 2019-03-05 15:04:09.400 firefox-bin[35036:6481469] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
 2019-03-05 15:04:09.400 firefox-bin[35036:6481469] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1551995944374	geckodriver	INFO	Listening on 127.0.0.1:49893
+1551995945466	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 14:59:06.791 firefox-bin[39407:7279826] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 14:59:06.791 firefox-bin[39407:7279826] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 14:59:06.791 firefox-bin[39407:7279826] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 14:59:06.792 firefox-bin[39407:7279826] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 14:59:06.792 firefox-bin[39407:7279826] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 14:59:07.759 plugin-container[39408:7279912] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 14:59:08.059 plugin-container[39408:7279912] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10eee2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 14:59:08.062 plugin-container[39408:7279913] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551995948283	Marionette	INFO	Listening on port 49900
+1551995948370	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 14:59:08.762 plugin-container[39409:7279996] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 14:59:08.894 plugin-container[39409:7279996] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1079e5fa0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 14:59:08.897 plugin-container[39409:7280005] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551996010390	geckodriver	INFO	Listening on 127.0.0.1:50011
+1551996011438	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:00:12.315 firefox-bin[39416:7280662] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:00:12.316 firefox-bin[39416:7280662] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:00:12.316 firefox-bin[39416:7280662] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:00:12.316 firefox-bin[39416:7280662] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:00:12.316 firefox-bin[39416:7280662] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:00:13.146 plugin-container[39417:7280732] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x723b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:00:13.280 plugin-container[39417:7280732] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10cfe2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:00:13.283 plugin-container[39417:7280743] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551996013618	Marionette	INFO	Listening on port 50018
+1551996013716	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:00:14.144 plugin-container[39418:7280809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7703, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:00:14.264 plugin-container[39418:7280809] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x108ee5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:00:14.267 plugin-container[39418:7280812] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551996966608	geckodriver	INFO	Listening on 127.0.0.1:50155
+1551996967661	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:16:08.541 firefox-bin[39462:7291470] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:16:08.541 firefox-bin[39462:7291470] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:16:08.541 firefox-bin[39462:7291470] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:16:08.541 firefox-bin[39462:7291470] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:16:08.541 firefox-bin[39462:7291470] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:16:09.395 plugin-container[39463:7291542] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x833b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:16:09.524 plugin-container[39463:7291542] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10afe1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:16:09.527 plugin-container[39463:7291544] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551996969858	Marionette	INFO	Listening on port 50162
+1551996969946	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:16:10.289 plugin-container[39464:7291626] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:16:10.411 plugin-container[39464:7291626] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10f5e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:16:10.414 plugin-container[39464:7291631] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 39463, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1551997278463	geckodriver	INFO	Listening on 127.0.0.1:50563
+1551997279508	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:21:20.384 firefox-bin[39483:7295750] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:21:20.384 firefox-bin[39483:7295750] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:21:20.384 firefox-bin[39483:7295750] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:21:20.384 firefox-bin[39483:7295750] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:21:20.384 firefox-bin[39483:7295750] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:21:21.187 plugin-container[39484:7295824] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:21:21.318 plugin-container[39484:7295824] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10abe1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:21:21.321 plugin-container[39484:7295826] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997281669	Marionette	INFO	Listening on port 50570
+1551997281694	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:21:22.124 plugin-container[39485:7295906] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8133, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:21:22.249 plugin-container[39485:7295906] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1090e5100 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:21:22.252 plugin-container[39485:7295908] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997358702	geckodriver	INFO	Listening on 127.0.0.1:50654
+1551997359750	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:22:40.604 firefox-bin[39490:7297105] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:22:40.604 firefox-bin[39490:7297105] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:22:40.604 firefox-bin[39490:7297105] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:22:40.604 firefox-bin[39490:7297105] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:22:40.604 firefox-bin[39490:7297105] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:22:41.411 plugin-container[39491:7297180] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:22:41.541 plugin-container[39491:7297180] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10e7e11c0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:22:41.543 plugin-container[39491:7297182] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997361889	Marionette	INFO	Listening on port 50661
+1551997361935	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:22:42.347 plugin-container[39492:7297261] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:22:42.471 plugin-container[39492:7297261] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10f5e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:22:42.474 plugin-container[39492:7297271] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1551997547207	geckodriver	INFO	Listening on 127.0.0.1:51062
+1551997548253	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:25:49.107 firefox-bin[39504:7299746] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:25:49.107 firefox-bin[39504:7299746] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:25:49.107 firefox-bin[39504:7299746] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:25:49.107 firefox-bin[39504:7299746] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:25:49.107 firefox-bin[39504:7299746] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:25:49.904 plugin-container[39505:7299822] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x793b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:25:50.035 plugin-container[39505:7299822] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10f7e1190 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:25:50.038 plugin-container[39505:7299824] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997550384	Marionette	INFO	Listening on port 51069
+1551997550453	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:25:50.849 plugin-container[39506:7299903] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:25:50.976 plugin-container[39506:7299903] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x107ee5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:25:50.979 plugin-container[39506:7299912] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997662178	geckodriver	INFO	Listening on 127.0.0.1:51181
+1551997663223	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:27:44.084 firefox-bin[39545:7301701] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:27:44.084 firefox-bin[39545:7301701] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:27:44.084 firefox-bin[39545:7301701] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:27:44.084 firefox-bin[39545:7301701] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:27:44.085 firefox-bin[39545:7301701] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:27:44.886 plugin-container[39546:7301845] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:27:45.022 plugin-container[39546:7301845] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1118e2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:27:45.027 plugin-container[39546:7301856] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997665362	Marionette	INFO	Listening on port 51188
+1551997665412	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:27:45.819 plugin-container[39547:7301926] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:27:45.947 plugin-container[39547:7301926] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10d6e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:27:45.950 plugin-container[39547:7301936] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997741549	geckodriver	INFO	Listening on 127.0.0.1:51302
+1551997742586	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 15:29:03.515 firefox-bin[39554:7303025] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:29:03.515 firefox-bin[39554:7303025] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:29:03.516 firefox-bin[39554:7303025] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:29:03.516 firefox-bin[39554:7303025] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:29:03.516 firefox-bin[39554:7303025] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 15:29:04.298 plugin-container[39555:7303107] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:29:04.432 plugin-container[39555:7303107] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x115ce1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:29:04.435 plugin-container[39555:7303108] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1551997744778	Marionette	INFO	Listening on port 51309
+1551997744877	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 15:29:05.214 plugin-container[39556:7303187] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 15:29:05.338 plugin-container[39556:7303187] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x113be5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 15:29:05.341 plugin-container[39556:7303188] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1552003586273	geckodriver	INFO	Listening on 127.0.0.1:60678
+1552003587327	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1552003810021	geckodriver	INFO	Listening on 127.0.0.1:60730
+1552003811062	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:10:11.915 firefox-bin[39821:7378408] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:11.915 firefox-bin[39821:7378408] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:11.915 firefox-bin[39821:7378408] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:11.915 firefox-bin[39821:7378408] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:11.915 firefox-bin[39821:7378408] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:12.750 plugin-container[39822:7378486] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:10:13.011 plugin-container[39822:7378486] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10c5e1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:10:13.015 plugin-container[39822:7378489] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003813216	Marionette	INFO	Listening on port 60737
+1552003813245	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:10:13.665 plugin-container[39823:7378567] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x703b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:10:13.788 plugin-container[39823:7378567] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x102ee5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:10:13.791 plugin-container[39823:7378568] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003838229	geckodriver	INFO	Listening on 127.0.0.1:60815
+1552003839270	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:10:40.113 firefox-bin[39830:7379034] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:40.113 firefox-bin[39830:7379034] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:40.114 firefox-bin[39830:7379034] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:40.114 firefox-bin[39830:7379034] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:40.114 firefox-bin[39830:7379034] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:10:40.935 plugin-container[39831:7379110] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:10:41.070 plugin-container[39831:7379110] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10fae1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:10:41.073 plugin-container[39831:7379111] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003841415	Marionette	INFO	Listening on port 60822
+1552003841454	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:10:41.898 plugin-container[39832:7379191] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:10:42.022 plugin-container[39832:7379191] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x109ce5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:10:42.025 plugin-container[39832:7379199] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1552003870988	geckodriver	INFO	Listening on 127.0.0.1:60900
+1552003872028	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:11:12.891 firefox-bin[39838:7379758] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:12.891 firefox-bin[39838:7379758] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:12.891 firefox-bin[39838:7379758] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:12.891 firefox-bin[39838:7379758] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:12.891 firefox-bin[39838:7379758] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:13.721 plugin-container[39839:7379829] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:11:13.858 plugin-container[39839:7379829] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10b7d72e0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:11:13.861 plugin-container[39839:7379830] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003874218	Marionette	INFO	Listening on port 60907
+1552003874321	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:11:14.664 plugin-container[39840:7379907] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:11:14.788 plugin-container[39840:7379907] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x107be5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:11:14.791 plugin-container[39840:7379920] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003890855	geckodriver	INFO	Listening on 127.0.0.1:60994
+1552003891896	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+2019-03-07 17:11:32.949 firefox-bin[39846:7380339] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:32.949 firefox-bin[39846:7380339] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:32.949 firefox-bin[39846:7380339] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:32.949 firefox-bin[39846:7380339] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:32.950 firefox-bin[39846:7380339] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:11:33.898 plugin-container[39847:7380445] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:11:34.030 plugin-container[39847:7380445] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x106be2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:11:34.033 plugin-container[39847:7380446] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552003894338	Marionette	INFO	Listening on port 61001
+1552003894381	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:11:34.841 plugin-container[39848:7380532] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8733, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:11:34.969 plugin-container[39848:7380532] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10c4e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:11:34.972 plugin-container[39848:7380534] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552005574456	geckodriver	INFO	Listening on 127.0.0.1:61531
+1552005575570	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:39:36.435 firefox-bin[39956:7402508] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:39:36.435 firefox-bin[39956:7402508] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:39:36.435 firefox-bin[39956:7402508] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:39:36.435 firefox-bin[39956:7402508] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:39:36.435 firefox-bin[39956:7402508] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:39:37.268 plugin-container[39958:7402606] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:39:37.535 plugin-container[39958:7402606] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1147d8340 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:39:37.538 plugin-container[39958:7402607] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552005577744	Marionette	INFO	Listening on port 61538
+1552005577761	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:39:38.210 plugin-container[39959:7402688] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:39:38.334 plugin-container[39959:7402688] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1069e5fa0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:39:38.337 plugin-container[39959:7402690] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552005698378	geckodriver	INFO	Listening on 127.0.0.1:61665
+1552005699423	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:41:40.267 firefox-bin[39967:7404553] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:41:40.268 firefox-bin[39967:7404553] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:41:40.268 firefox-bin[39967:7404553] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:41:40.268 firefox-bin[39967:7404553] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:41:40.268 firefox-bin[39967:7404553] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:41:41.084 plugin-container[39968:7404624] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x842f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:41:41.220 plugin-container[39968:7404624] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10e7e2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:41:41.223 plugin-container[39968:7404625] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552005701539	Marionette	INFO	Listening on port 61672
+1552005701608	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:41:42.052 plugin-container[39969:7404713] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:41:42.179 plugin-container[39969:7404713] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x106ce5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:41:42.182 plugin-container[39969:7404723] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552006039477	geckodriver	INFO	Listening on 127.0.0.1:63635
+1552006040522	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:47:21.416 firefox-bin[39981:7409791] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:47:21.416 firefox-bin[39981:7409791] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:47:21.416 firefox-bin[39981:7409791] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:47:21.416 firefox-bin[39981:7409791] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:47:21.416 firefox-bin[39981:7409791] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:47:22.327 plugin-container[39982:7409893] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:47:22.462 plugin-container[39982:7409893] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x108ee2190 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:47:22.465 plugin-container[39982:7409895] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552006042803	Marionette	INFO	Listening on port 63642
+1552006042820	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:47:23.268 plugin-container[39983:7409977] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:47:23.393 plugin-container[39983:7409977] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1145e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:47:23.396 plugin-container[39983:7409985] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552006364419	geckodriver	INFO	Listening on 127.0.0.1:50417
+1552006365537	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-07 17:52:46.485 firefox-bin[40016:7416493] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:52:46.485 firefox-bin[40016:7416493] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:52:46.485 firefox-bin[40016:7416493] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:52:46.485 firefox-bin[40016:7416493] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:52:46.485 firefox-bin[40016:7416493] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-07 17:52:47.330 plugin-container[40017:7416566] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:52:47.591 plugin-container[40017:7416566] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10bbe1160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:52:47.594 plugin-container[40017:7416567] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552006367798	Marionette	INFO	Listening on port 50424
+1552006367815	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-07 17:52:48.262 plugin-container[40018:7416650] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x753b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-07 17:52:48.391 plugin-container[40018:7416650] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10c5e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-07 17:52:48.394 plugin-container[40018:7416651] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1552084672751	geckodriver	INFO	Listening on 127.0.0.1:55303
+1552084673838	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+2019-03-08 15:37:55.166 firefox-bin[40913:7675929] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-08 15:37:55.166 firefox-bin[40913:7675929] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-08 15:37:55.166 firefox-bin[40913:7675929] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-08 15:37:55.167 firefox-bin[40913:7675929] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-08 15:37:55.167 firefox-bin[40913:7675929] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2019-03-08 15:37:56.142 plugin-container[40914:7676015] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-08 15:37:56.405 plugin-container[40914:7676015] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1111e2160 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-08 15:37:56.408 plugin-container[40914:7676026] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1552084676676	Marionette	INFO	Listening on port 55310
+1552084676745	Marionette	WARN	TLS certificate errors will be ignored for this session
+2019-03-08 15:37:57.127 plugin-container[40915:7676173] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2019-03-08 15:37:57.254 plugin-container[40915:7676173] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10b3e5f70 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2019-03-08 15:37:57.257 plugin-container[40915:7676174] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
